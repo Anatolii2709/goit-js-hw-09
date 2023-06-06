@@ -76,7 +76,6 @@ function start() {
   let intervalId = setInterval(() => {
     timer -= 1000;
     if (timer <= 0) {
-      btnStart.removeAttribute('disabled', 'disabled');
       input.removeAttribute('disabled', 'disabled');
       clearInterval(intervalId);
       return;
